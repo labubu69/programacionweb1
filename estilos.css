@@ -100,3 +100,13 @@ footer {
   padding: 10px;
 }
 footer a { color: #cf2fc4; }
+
+@media (max-width: 700px) {
+  #btn-menu { display: block; margin-top: 10px; }
+  nav ul { display: none; }
+  nav ul.abierto { display: block; }
+  nav li { display: block; margin: 8px 0; }
+  .expo { flex-direction: column; }
+  .expo img { width: 100%; }
+  .galeria figure { width: 100%; }
+}
