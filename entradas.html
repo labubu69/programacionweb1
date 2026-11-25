@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entradas - Museo Deportivo</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header>
+    <h1 class="logo"><a href="index.html">Museo Deportivo</a></h1>
+    <button id="btn-menu" type="button">Menú</button>
+    <nav>
+      <ul id="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="exposiciones.html">Exposiciones</a></li>
+        <li><a href="horario.html">Horario</a></li>
+        <li><a href="ubicacion.html">Ubicación</a></li>
+        <li><a href="entradas.html" class="activo">Entradas</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Tipos de entrada</h2>
+    <table>
+      <tr><th>Entrada</th><th>¿A quién aplica?</th><th>Costo</th></tr>
+      <tr><td>General</td><td>Público en general</td><td>$100</td></tr>
+      <tr><td>Estudiantes</td><td>Con credencial vigente</td><td>$50</td></tr>
+      <tr><td>Adultos mayores</td><td>Con credencial INAPAM</td><td>$50</td></tr>
+      <tr><td>Niños</td><td>Menores de 12 años</td><td>Gratis</td></tr>
+    </table>
+
+    <h3>Calcula el costo de tu visita</h3>
+    <form id="calculadora">
+      <label>General: <input type="number" id="general" min="0" value="0"></label>
+      <label>Estudiantes: <input type="number" id="estudiantes" min="0" value="0"></label>
+      <label>Adultos mayores: <input type="number" id="mayores" min="0" value="0"></label>
+      <label>Niños: <input type="number" id="ninos" min="0" value="0"></label>
+      <button type="submit">Calcular</button>
+    </form>
+    <p id="total" class="aviso"></p>
+  </main>
+
+  <footer>
+    <p> Museo Deportivo. Proyecto escolar de Programación Web I. Prof Jorge Candelario. <span id="anio">2026</span></p>
+    <a href="creditos.html">Créditos</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

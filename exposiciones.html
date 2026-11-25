@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exposiciones - Museo Deportivo</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header>
+    <h1 class="logo"><a href="index.html">Museo Deportivo</a></h1>
+    <button id="btn-menu" type="button">Menú</button>
+    <nav>
+      <ul id="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="exposiciones.html" class="activo">Exposiciones</a></li>
+        <li><a href="horario.html">Horario</a></li>
+        <li><a href="ubicacion.html">Ubicación</a></li>
+        <li><a href="entradas.html">Entradas</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Exposiciones</h2>
+    <p>Actualmente el museo cuenta con tres exposiciones permanentes.</p>
+    <article class="expo" id="futbol">
+      <img src="img/copa_mundo.jpg" alt="Fútbol">
+      <div>
+        <h3>Fútbol: la pasión del mundo</h3>
+        <p><strong>Tema:</strong> Historia del fútbol y los mundiales</p>
+        <p>Recorrido por balones, jerseys y recuerdos de los mundiales, incluido México 1986.</p>
+        <a class="boton" href="galeria-futbol.html">Ver galería</a>
+      </div>
+    </article>
+    <article class="expo" id="beisbol">
+      <img src="img/estatua_beisbol.jpg" alt="Béisbol: historia del diamante">
+      <div>
+        <h3>Béisbol: historia del diamante</h3>
+        <p><strong>Tema:</strong> Grandes momentos del béisbol</p>
+        <p>Guantes, bates y pelotas firmadas por jugadores legendarios de las Grandes Ligas y la Liga Mexicana.</p>
+        <a class="boton" href="galeria-beisbol.html">Ver galería</a>
+      </div>
+    </article>
+    <article class="expo" id="olimpicos">
+      <img src="img/museo_olimpiadas.JPG" alt="Juegos Olímpicos">
+      <div>
+        <h3>Juegos Olímpicos</h3>
+        <p><strong>Tema:</strong> El espíritu olímpico</p>
+        <p>Medallas, antorchas y la historia de los Juegos desde la antigua Grecia hasta hoy.</p>
+        <a class="boton" href="galeria-olimpicos.html">Ver galería</a>
+      </div>
+    </article>
+  </main>
+
+  <footer>
+    <p> Museo Deportivo. Proyecto escolar de Programación Web I. Prof Jorge Luis Candelario. <span id="anio">2026</span></p>
+    <a href="creditos.html">Créditos</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - Museo Deportivo</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header>
+    <h1 class="logo"><a href="index.html">Museo Deportivo</a></h1>
+    <button id="btn-menu" type="button">Menú</button>
+    <nav>
+      <ul id="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="exposiciones.html">Exposiciones</a></li>
+        <li><a href="horario.html">Horario</a></li>
+        <li><a href="ubicacion.html">Ubicación</a></li>
+        <li><a href="entradas.html">Entradas</a></li>
+        <li><a href="contacto.html" class="activo">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Contacto</h2>
+    <p><strong>Correo:</strong> contacto@museodeportivo.mx</p>
+    <p><strong>Teléfono:</strong> (+52) 1234 5678</p>
+    <p><strong>Redes sociales:</strong> @museodeportivo</p>
+
+    <h3>Envíanos un mensaje</h3>
+    <form id="form-contacto">
+      <label>Nombre: <input type="text" id="nombre"></label>
+      <label>Correo: <input type="email" id="correo"></label>
+      <label>Mensaje: <textarea id="mensaje" rows="4"></textarea></label>
+      <button type="submit">Enviar</button>
+    </form>
+    <p id="respuesta" class="aviso"></p>
+  </main>
+
+  <footer>
+    <p> Museo Deportivo. Proyecto escolar de Programación Web I. Prof Jorge Luis Candelario. <span id="anio">2026</span></p>
+    <a href="creditos.html">Créditos</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
